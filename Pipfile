@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = '3.9'
+
+[packages]
+tomli = "==2.0.1"
+flet = "*"
+pymongo = "*"
+tabulate = "*"
+
+
+
+[dev-packages]
+pytest = "*"
+python-redmine = "*"
